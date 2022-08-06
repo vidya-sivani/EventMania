@@ -1,8 +1,6 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Useform from './Useform';
-import {db} from './firebase'
-import {useState,useEffect} from 'react';
 
 function App() {
   

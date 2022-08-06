@@ -13,16 +13,16 @@ export default function Useform() {
         
         var isAvailable=0
         for(var i=0;i<6;i++){
-          if(defaultEvents[i].name==name){
-            if(defaultEvents[i].date==date){
-              if(defaultEvents[i].time==time){
+          if(defaultEvents[i].name===name){
+            if(defaultEvents[i].date===date){
+              if(defaultEvents[i].time===time){
                 isAvailable=1
                 break
               }
             }
           }
         }
-        if(isAvailable==0){
+        if(isAvailable===0){
           alert(name+" is Available on "+date)
         }
         else{
